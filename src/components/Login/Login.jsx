@@ -75,7 +75,7 @@ const Login = () => {
     }, [])
 
     return (
-        <div>
+        <div className='mb-[400px]'>
             {
                 user ?
                     <button onClick={handleSignOut}>sign out</button> :
